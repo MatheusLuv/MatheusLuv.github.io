@@ -1,6 +1,7 @@
 .button {
     display: inline-block;
-    background-color: #48cae4;
+    background-color: #495057;
+    border-radius: 20px;
     color: #ffe5d9;
     height: 60px;
     line-height: 60px;
@@ -12,6 +13,26 @@
 }
 
 .button:hover {
+    transform: scale(1.08);
+
+}
+
+.button-slid {
+    display: inline-block;
+    background-color: transparent;
+    border: 5px solid #FFF;
+    border-radius: 20px;
+    color: #ffe5d9;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px #000;
+    transition: transform 200ms linear;
+    text-decoration: none;
+}
+
+.button-slid:hover {
     transform: scale(1.08);
 
 }

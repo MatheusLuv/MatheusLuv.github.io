@@ -1,14 +1,15 @@
 .box {
     display: inline-block;
-    background: #3A4042;
+    background-color: transparent;
     width: 630px;
-    box-shadow: 10px 10px 0 #000;
+    border: 10px solid #FFF;
+    box-shadow: 5px 5px 0 #000;
+    border-radius: 50px;
     text-align: center;
-    padding-top: 40px;
-    margin-top: 116px;
 }
 
 .box  .title {
+    padding-top: 40px;
     padding-bottom: 28px;
 }
 
@@ -19,3 +20,4 @@
     padding-bottom: 42px;
 
 }
+
